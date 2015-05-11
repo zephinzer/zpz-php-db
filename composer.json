@@ -1,0 +1,24 @@
+{
+    "name": "zpz/db",
+    "type": "library",
+    "description": "A singleton database class for PHP::PDO.",
+    "keywords": ["zpz","components","database","pdo","singleton"],
+    "license": "MIT",
+    "require": {
+        "bafs/testify": "dev-master",
+        "php": ">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Joseph Matthias Goh",
+            "email": "joseph@zephinzer.com",
+            "homepage": "http://zephinzer.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4" : {
+            "DB\\" : "."
+        }
+    }
+}
