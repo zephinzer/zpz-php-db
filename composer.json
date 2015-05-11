@@ -1,5 +1,6 @@
 {
     "name": "zpz/db",
+    "version": "0.1.0",
     "type": "library",
     "description": "A singleton database class for PHP::PDO.",
     "keywords": ["zpz","components","database","pdo","singleton"],
